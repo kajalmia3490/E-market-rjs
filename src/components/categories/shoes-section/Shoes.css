@@ -1,0 +1,31 @@
+.shoes-section {
+    width: 200px;
+    line-height: 30px;
+    font-size: large;
+}
+
+.shoes-section img {
+    width: 180px;
+}
+
+.shoes-section p img {
+    width: 100px;
+}
+
+.shoes-section button {
+    width: 100%;
+    padding: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    background-color: #7DCC06;
+    font-size: large;
+}
+
+.shoes-section button:hover {
+    background-color: tomato;
+}

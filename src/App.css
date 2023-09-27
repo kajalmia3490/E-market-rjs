@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 0 100px 100px 100px;
+}
+
+.review-title {
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+}
+
+hr {
+  height: 5px;
+  background-color: #3098;
+}
+
+/* responsive */
+@media (max-width: 991px) {
+    .reviews {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+}

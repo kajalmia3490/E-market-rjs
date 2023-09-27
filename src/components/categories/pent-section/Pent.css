@@ -1,0 +1,31 @@
+.pent-section {
+    font-size: large;
+    line-height: 30px;
+    width: 200px;
+}
+
+.pent-section img {
+    width: 150px;
+}
+
+.pent-section p img {
+    width: 100px;
+}
+
+.pent-section button {
+    width: 100%;
+    border: none;
+    padding: 8px 15px;
+    background-color: #7DCC06;
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.pent-section button:hover {
+    background-color: tomato;
+}

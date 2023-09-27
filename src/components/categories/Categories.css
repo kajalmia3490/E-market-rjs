@@ -1,0 +1,45 @@
+.categories-section {
+    padding: 0px 100px;
+}
+
+.categories-section h2 {
+    font-size: 30px;
+    margin: 70px 0 40px 0;
+}
+
+.tshirt-comp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 100px;
+    align-items: end;
+}
+
+.pent-comp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    align-items: end;
+    margin-bottom: 100px;
+}
+
+.shoes-comp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+/* responsive */
+@media screen and (max-width: 480px) {
+    .tshirt-comp {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-bottom: 60px;
+    }
+    .categories-section {
+        padding: 0px 30px;
+    }
+}
